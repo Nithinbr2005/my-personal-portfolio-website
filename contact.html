@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nithin | Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Ionicons for modern icons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="skills.html">SKILLS</a></li>
+      <li><a href="projects.html">PROJECTS</a></li>
+      <li><a href="contact.html" class="active">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <main class="main" style="position: relative;">
+    <!-- Animated UI Orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-4"></div>
+
+    <section class="contact-section container">
+      <h2 class="section-title reveal">Contact <span class="text-gradient">Me</span></h2>
+
+      <div class="contact-wrapper reveal">
+        <div class="contact-info glass glass-hover">
+          <h3>Let's Connect</h3>
+          <p>Feel free to reach out to me through any of the platforms below or send me a direct message!</p>
+
+          <div class="info-item">
+            <ion-icon name="mail-outline"></ion-icon>
+            <a href="mailto:nithinnithin21568@gmail.com" class="contact-link">nithinnithin21568@gmail.com</a>
+          </div>
+          <div class="info-item">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            <a href="https://wa.me/919110838854" target="_blank" class="contact-link">WhatsApp Me</a>
+          </div>
+          <div class="info-item">
+            <ion-icon name="call-outline"></ion-icon>
+            <a href="tel:+919110838854" class="contact-link">+91 9110838854</a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/nithin-br-7a7802305/" target="_blank" class="icon-link"
+              title="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/Nithinbr2005" target="_blank" class="icon-link" title="GitHub"><ion-icon
+                name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+
+        <div class="contact-form glass glass-hover">
+          <form action="https://formsubmit.co/nithinnithin21568@gmail.com" method="POST" id="contactForm">
+            <!-- Configuration for FormSubmit -->
+            <input type="hidden" name="_subject" value="New Message from Portfolio!">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
+            <div class="input-box">
+              <input type="text" name="name" id="senderName" required>
+              <label>Your Name</label>
+            </div>
+            <div class="input-box">
+              <input type="email" name="email" id="senderEmail" required>
+              <label>Your Email</label>
+            </div>
+            <div class="input-box">
+              <textarea name="message" id="senderMessage" required></textarea>
+              <label>Your Message</label>
+            </div>
+            <button type="submit" class="btn submit-btn">Send Message <ion-icon name="send"
+                style="margin-left:8px;"></ion-icon></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
